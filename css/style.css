@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration:none;
     border: none;
     outline: none;
@@ -14,7 +13,7 @@
 
 :root {
     --bg-color:#fcfcfc;
-    --second-bg-color:#FBA1B7;
+    --second-bg-color:#ffacd3;
     --text-color:#ffff;
     --main-color:#FF52A2;
 }
@@ -250,7 +249,7 @@ section {
 }
 
 span {
-    color: var(--second-bg-color);
+    color:#e53386;
 }
 
 .about-img {
@@ -395,5 +394,108 @@ span {
     padding-top: .5rem;
 }
 
+/* Skill */
+.skills {
+    min-height: auto;
+    padding-bottom: 7rem;
+    background: #e33a898c;
+}
+
+.skills .skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.skills-row .skills-column {
+    flex: 1 1 40rem;
+}
 
 
+.skills-column .title {
+    font-size:  2.5rem;
+    margin: 0 0 1.5rem;
+}
+
+/* skill box and content */
+.skills-box .skills-content {
+    position: relative;
+    border: .2rem solid var(--bg-color);
+    border-radius: .6rem;
+    padding: .5rem 1.5rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.skills-box .skills-content::before {
+    content: '';
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height:100%;
+    background:#ffc8e2b4;
+    z-index: -1;
+    transition: .5s;
+}
+
+.skills-box .skills-content:hover:before {
+    width: 100%;
+}
+
+/* skill content progress */
+
+.skills-content .progress {
+    padding: 1rem 0;
+}
+
+.skills-content .progress h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .progress span{
+    color: var(--text-color);
+}
+
+.skills-content .progress .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--text-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.skills-content .progress .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background: var(--main-color);
+}
+
+/* professional skill bar progress */
+.skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
+    width: 80%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
+    width: 70%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+    width: 70%;
+}
+
+/* coding skill bar progress */
+.skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
+    width: 90%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
+    width: 90%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
+    width: 70%;
+}
