@@ -627,3 +627,50 @@ span {
 .footer-iconTop a i:hover{
     color: var(--bg-color);
 }
+
+/* Media Query */
+@media (max-width: 768px) {
+    .header {
+        padding: 2rem 2%;
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+    
+    section{
+    padding: 10rem 2rem 2%;
+}
+
+    .home {
+        padding: 0;
+        background-size: auto 60%;
+    }
+
+    .home-content {
+        max-width: 80%;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-imgHover {
+        width: 40%;
+    }
+
+
+}
+
+
