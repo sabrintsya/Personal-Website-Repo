@@ -7,12 +7,12 @@ Website ini dibangun menggunakan HTML dan CSS dan Javascript, dengan memanfaatka
 1. Halaman Utama (Homepage): Menyajikan informasi singkat tentang diri, proyek-proyek yang sedang berjalan, atau sekadar ucapan selamat datang.
 2. Halaman Tentang (About Page): Berisi informasi lebih detail tentang diri, pengalaman, minat, dan kontak.
 3. Halaman Portofolio/Keahlian (Portfolio Page/Skills Page): Menampilkan karya-karya yang telah dibuat, baik itu proyek pribadi maupun proyek tim.
-4. Halaman Blog/Artikel (Blog/Articles Page): Berisi tulisan-tulisan atau artikel yang berkaitan dengan bidang minat atau pengalaman.
+4. Halaman contact: Berisi kotak pesan.
+5. Halaman pendidikan :berisi tentang pendidikan terakhir
 
 Teknologi yang Digunakan:
 1. HTML: Sebagai struktur dasar halaman web. 
 2. CSS: Untuk mengatur tampilan dan gaya halaman web, termasuk penggunaan Flexbox atau Grid. 
-3. Javascript :
 
 🙌 Cara Penggunaan:
 Clone repository: Bash git clone https://github.com/sabrintsya/Personal-Website-Repo.git 
