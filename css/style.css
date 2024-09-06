@@ -74,6 +74,8 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+/* Home */
+
 .home {
     display: flex;
     align-items: center;
@@ -119,6 +121,8 @@ section {
     background: var(--bg-color);
     opacity: .8;
 }
+
+/* button */
 .btn-box {
     position: relative;
     display: flex;
@@ -175,6 +179,7 @@ section {
     width: 100%;
 }
 
+/* social media */
 .home-sci {
     position: absolute;
     bottom: 4rem;
