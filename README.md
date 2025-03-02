@@ -1,23 +1,44 @@
-# Web Development Basic Stage Technical Project Assignment (TPA) #1 - Personal Website
+# 🌐 Personal Website - Web Development Basic Stage Technical Project Assignment (TPA) #1
 
-![Macbook-Air-sabrintsyaweb netlify app](https://github.com/user-attachments/assets/df307cec-4836-4318-8211-aefe8ba8f536)
+![Website Preview](https://github.com/user-attachments/assets/df307cec-4836-4318-8211-aefe8ba8f536)
 
-# ❤️ Deskripsi: 
-Ini adalah proyek website personal yang dibuat sebagai bagian dari tugas TPA #1 Skillvul bootcamp perempuan inovasi 2024. 
-Website ini dibangun menggunakan HTML dan CSS dan Javascript, dengan memanfaatkan teknik layout seperti Flexbox atau Grid untuk menciptakan tampilan yang responsif dan menarik.
+## ❤️ Deskripsi
+Ini adalah proyek website personal yang dibuat sebagai bagian dari tugas **TPA #1 Skillvul Bootcamp Perempuan Inovasi 2024**. Website ini dikembangkan menggunakan **HTML, CSS, dan JavaScript**, dengan penerapan **Flexbox dan Grid** untuk tata letak yang responsif dan menarik.
 
-# 👩‍💻Fitur: 
-1. Halaman Utama (Homepage): Menyajikan informasi singkat tentang diri, proyek-proyek yang sedang berjalan, atau sekadar ucapan selamat datang.
-2. Halaman Tentang (About Page): Berisi informasi lebih detail tentang diri, pengalaman, minat, dan kontak.
-3. Halaman Portofolio/Keahlian (Portfolio Page/Skills Page): Menampilkan karya-karya yang telah dibuat, baik itu proyek pribadi maupun proyek tim.
-4. Halaman contact: Berisi kotak pesan.
-5. Halaman pendidikan :berisi tentang pendidikan terakhir
+---
 
-# Teknologi yang Digunakan:
-1. HTML: Sebagai struktur dasar halaman web. 
-2. CSS: Untuk mengatur tampilan dan gaya halaman web, termasuk penggunaan Flexbox atau Grid. 
+## 🚀 Fitur Utama
+✅ **Halaman Utama (Homepage)** - Menampilkan informasi singkat tentang diri, proyek yang sedang berjalan, serta ucapan selamat datang.  
+✅ **Halaman Tentang (About Page)** - Berisi informasi detail mengenai diri, pengalaman, minat, dan kontak.  
+✅ **Halaman Portofolio/Keahlian (Portfolio Page/Skills Page)** - Menampilkan berbagai karya, baik proyek pribadi maupun proyek tim.  
+✅ **Halaman Kontak (Contact Page)** - Berisi formulir pesan agar pengunjung dapat menghubungi pemilik website.  
+✅ **Halaman Pendidikan (Education Page)** - Menampilkan informasi mengenai riwayat pendidikan terakhir.
 
-# 🙌 Cara Penggunaan:
-# Clone repository: 
-1. Bash git clone https://github.com/sabrintsya/Personal-Website-Repo.git
+---
 
+## 🛠️ Teknologi yang Digunakan
+- **HTML** - Untuk struktur dasar halaman web.
+- **CSS** - Untuk desain dan tata letak menggunakan **Flexbox** & **Grid**.
+- **JavaScript** - Untuk menambahkan interaktivitas pada website.
+
+---
+
+## 🔧 Cara Menggunakan
+### 1️⃣ Clone Repository
+```bash
+ git clone https://github.com/sabrintsya/Personal-Website-Repo.git
+```
+
+### 2️⃣ Buka di Browser
+Setelah meng-clone repository, buka file **index.html** di browser favoritmu untuk melihat tampilan website.
+
+---
+
+## 📌 Kesimpulan
+Website ini merupakan hasil implementasi konsep dasar **Web Development** dengan **HTML, CSS, dan JavaScript**. Proyek ini dapat dikembangkan lebih lanjut dengan fitur tambahan dan peningkatan desain. 💡✨
+
+---
+
+🔗 **Demo Live:** [Klik di sini](#) 
+
+📩 **Hubungi Saya:** [LinkedIn](#https://www.linkedin.com/in/sabrina-natasya-bilbina/) 
